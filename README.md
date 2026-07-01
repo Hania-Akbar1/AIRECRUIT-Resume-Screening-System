@@ -1,18 +1,19 @@
 AIRECRUIT — AI-Powered Resume Screening & Candidate Role Recommendation System
 An end-to-end intelligent recruitment platform that automates resume screening, skill extraction, candidate classification, and role recommendation using NLP and Machine Learning.
 
+---
 Live Demo
 🚀 Launch AIRECRUIT on Streamlit
-
+---
 What This System Does
 Parses and cleans resume text at scale
 Extracts structured skills from unstructured content
 Classifies candidates into 42 job-role categories with 98.75% accuracy
 Ranks candidates against a job description using cosine similarity
 Presents results through an interactive Streamlit dashboard
-
+---
 ML Pipeline
-
+```
 Raw Resumes (10,000)
     → Data Cleaning & Normalisation
     → TF-IDF Vectorisation (3,000 / 5,000 features)
@@ -29,9 +30,9 @@ Support Vector Machine (Production)	98.75%
 Random Forest	98.15%
 Logistic Regression	97.00%
 XGBoost	96.50%
-
+---
 Repository Structure
-
+```
 AIRECRUIT-Resume-Screening-System/
 ├── app.py
 ├── requirements.txt
@@ -57,7 +58,8 @@ AIRECRUIT-Resume-Screening-System/
     ├── 02_Preprocessing_Feature_Engineering.ipynb
     ├── 03_Model_Training.ipynb
     └── 04_Evaluation_Recommendation_System.ipynb
-
+```
+---
 Tech Stack
 Layer	Tools
 Language	Python 3.12
@@ -66,7 +68,7 @@ Data	Pandas, NumPy
 Visualisation	Matplotlib, Seaborn, Plotly
 Deployment	Streamlit
 Dataset	Kaggle Resume Dataset (10,000 records, 42 categories)
-
+---
 How to Run Locally
 ```bash
 git clone https://github.com/Hania-Akbar1/AIRECRUIT-Resume-Screening-System.git
